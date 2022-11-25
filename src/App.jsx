@@ -59,8 +59,9 @@ function App() {
                 alignItems="center"
                 justifyContent="space-around"
                 height="350px"
+                gap={2}
               >
-                <Typography color="primary.main" variant="h3">
+                <Typography color="primary.main" variant="h2">
                   Asad Bashir
                 </Typography>
 
@@ -73,7 +74,14 @@ function App() {
                   <span style={{ color: "#0B3954" }}> web apps</span> with
                   simple and elegant UI.
                 </Typography>
-                <Button variant="contained">Resume</Button>
+                <Button
+                  target="_blank"
+                  href="https://docs.google.com/document/d/1I9m0_E0wGZz3i1Mye2GYtWfkvr4pYjwanCJT0tw3f70/edit?usp=sharing"
+                  size="large"
+                  variant="contained"
+                >
+                  Resume
+                </Button>
               </Stack>
               <Image height="300px" src={Avatar} alt="" />
             </Stack>
@@ -82,7 +90,9 @@ function App() {
               <Skills />
             </Box>
             <Box id="projects" component="section">
-              <Typography mb={3} variant="h2">Projects</Typography>
+              <Typography mb={3} variant="h2">
+                Projects
+              </Typography>
               <Stack rowGap={5}>
                 <ProjectShowCase
                   img={ArkMovies}
