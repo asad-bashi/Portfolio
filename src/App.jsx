@@ -76,7 +76,7 @@ function App() {
                 </Typography>
                 <Button
                   target="_blank"
-                  href="https://docs.google.com/document/d/1I9m0_E0wGZz3i1Mye2GYtWfkvr4pYjwanCJT0tw3f70/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/1ecWG1ctYfIRtHeZI1WGntRQO8cMBmomi0FqRnIV69_o/edit?usp=sharing"
                   size="large"
                   variant="contained"
                 >
