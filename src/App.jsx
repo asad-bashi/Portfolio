@@ -57,7 +57,8 @@ function App() {
             >
               <Stack
                 alignItems="center"
-                justifyContent="space-around"
+                textAlign='center'
+                justifyContent="center"
                 height="350px"
                 gap={2}
               >
@@ -77,8 +78,8 @@ function App() {
                 <Button
                   target="_blank"
                   href="https://docs.google.com/document/d/1ecWG1ctYfIRtHeZI1WGntRQO8cMBmomi0FqRnIV69_o/edit?usp=sharing"
-                  size="large"
                   variant="contained"
+                  sx={{fontSize:'1.3rem'}}
                 >
                   Resume
                 </Button>
